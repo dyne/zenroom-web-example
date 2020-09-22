@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<pre id="result"></pre>
+		<br/> <hr/> <br/>
+		<pre id="logs" style="color:indianred;"></pre>
+		<script type="module">
+			import zenroom from 'https://jspm.dev/zenroom@next';
+			const props = {
+				script : `Scenario 'ecdh': Create the keypair
+Given that I am known as 'Alice'
+When I create the keypair
+Then print my data`,
+				print_err: (text) => {
+					let result = document.getElementById("logs");
+					result.textContent += text
+				},
+				print: (text) => {
+					let result = document.getElementById("result");
+					result.textContent += text
+				}
+			}
+			zenroom.init(props).zencode_exec()
+		</script>
+	</body>
+</html>

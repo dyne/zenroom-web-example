@@ -1,0 +1,17 @@
+{
+  "name": "zenroom-test-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+	"prestart": "lnk ./node_modules/zenroom/dist/lib/zenroom.wasm .",
+    "start": "watch-http-server . -o"
+  },
+  "dependencies": {
+    "zenroom": "^1.1.5-0d65ab7"
+  },
+  "devDependencies": {
+    "lnk-cli": "^1.0.1",
+    "watch-http-server": "^0.7.6"
+  }
+}
