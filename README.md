@@ -1,5 +1,5 @@
 <h1 align="center">
-  Zenroom js test on web</br>
+  Zenroom js example on plain HTML</br>
 </h1>
 
 <p align="center">
@@ -14,16 +14,6 @@
   <a href="#-install">💾 Install</a>
   <span> • </span>
   <a href="#-quick-start">🎮 Quick start</a>
-  <span> • </span>
-  <a href="#-docker">🐋 Docker</a>
-  <span> • </span>
-  <a href="#-api">🐝 API</a>
-  <span> • </span>
-  <a href="#-configuration">🔧 Configuration</a>
-  <span> • </span>
-  <a href="#-testing">📋 Testing</a>
-  <span> • </span>
-  <a href="#-troubleshooting--debugging">🐛 Troubleshooting & debugging</a>
   <span> • </span>
   <a href="#-acknowledgements">😍 Acknowledgements</a>
   <span> • </span>
